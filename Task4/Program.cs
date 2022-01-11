@@ -31,7 +31,9 @@ namespace Task4
                 for (int i = 0; i < array.Length; i++)
                     Console.Write(array[i] + " ");
 
-                Extention.SortMethod(array);
+                //Extention.SortMethod(array); // - Тут я сглупил.
+
+                array.SortMethod();
 
                 Console.WriteLine(" ");
                 Console.WriteLine(new string('-', 30));
